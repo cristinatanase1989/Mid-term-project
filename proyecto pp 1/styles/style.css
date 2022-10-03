@@ -1,0 +1,9 @@
+@import"./header.css";
+@import"./card.css";
+@import"./secondSection.css";
+@import"./thirdSection.css";
+@import"./thirdSection.css";
+body{
+    padding: 50px;
+    margin: 50px;
+}
