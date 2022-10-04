@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
+
   <body>
     <!--*********HEADER**********-->
     <header>
@@ -20,7 +21,7 @@
         <img src="./logos/circle.svg" alt="circle" />
       </div>
       <div class="links">
-        <a href="Home">Home</a>
+        <a class="amarillo" href="Home">Home</a>
         <a href="Projects">Projects</a>
         <a href="Services">Services</a>
       </div>
@@ -30,108 +31,202 @@
       </div>
     </header>
 
-    <!--****************/HEADER**************-->
-
     <!--****************BODY****************-->
-    <section class="section2">
-      <div class="card1">
-        <img src="./hero-section/card-1.png" alt="" />
-      </div>
-    </section>
+    <!--absolute y relative , las 3 imagenes con texto-->
+    <div>
+      <section class="section2"> <!--div general-->
+            <div class="textTop">  
+              <div>
+              <h1>Empower Your Business With Stunning Design!</h1>
+              <h2>Circle is a digital design and development studio. We design and
+                develop astonishing websites and mobile apps.</h2>
+            </div>
 
-    <section clasee="text">
-      <script src="index.js"></script>
-      <h1>Empower Your Business With Stunning Design!</h1>
-      <div class="h2">
-        <h2>
-          Circle is a digital design and development studio. We design and
-          develop astonishing websites and mobile apps.
-        </h2>
-        <h4>See our work</h4>
-      </div>
-      <button class="button">Get in touch</button>
+            <div class="textButton">
+              <h4>See our work</h4>
+              <button class="button">Get in touch</button>
+            </div>
+            
 
-      <div class="bigImg">
-        <img src="./hero-section/hero-image.png" alt="hero-image" />
-      </div>
+            <!-- imajenes 3 relative y absolute -->
+            <div class="cardSonrizaOk">
+              <img src="./hero-section/hero-image.png" alt="hero-image" />
+              <img src="./hero-section/card-2.png" />
+              <img src="./hero-section/card-1.png" />
+            </div>
+      </section>
+
+    </div>
+    <!--los logos de la 4 section- logos amazon, google-->
+    <div>
+      <section class="secondSection">
+        <img src="./logos/airbnb-logo.svg" alt="airbnb-logo" />
+        <img src="./logos/google-logo.svg" alt="google-logo" />
+        <img src="./logos/microsoft-logo.svg" alt="microsoft-logo" />
+        <img src="./logos/fedex-logo.svg" alt="fedex-logo" />
+        <img src="./logos/amazon-logo.svg" alt="amazon-logo" />
+      </section>
+    </div>
+
+    <!--las 3 fotos en linia con texto abajo-->
+
+    <!-- <div class="imagenes3"> -->
+
+    <section class="inLineImg">
       <div>
-        <img src="./hero-section/card-2.png" alt="" />
-      </div>
-    </section>
-
-    <section class="secondSection">
-      <img src="./logos/airbnb-logo.svg" alt="airbnb-logo" />
-      <img src="./logos/google-logo.svg" alt="google-logo" />
-      <img src="./logos/microsoft-logo.svg" alt="microsoft-logo" />
-      <img src="./logos/fedex-logo.svg" alt="fedex-logo" />
-      <img src="./logos/amazon-logo.svg" alt="amazon-logo" />
-    </section>
-
-    <section class="thirdSection">
-      <h2>Recent Projects</h2>
-      <div class="imagenes3">
         <img
           src="./projects-section-20221003T113230Z-001/projects-section/1.jpg"
         />
-        <img
-          src="./projects-section-20221003T113230Z-001/projects-section/2.jpg"
-        />
-        <img
-          src="./projects-section-20221003T113230Z-001/projects-section/3.jpg"
-          alt=""
-        />
-      </div>
-    </section>
-
-    <!--de aqui para abajo hay que ver si esta bien-->
-
-    <section class="texto">
-      <div class="texto1">
         <h3>Simplify</h3>
         <p>UI Design & App Development</p>
         <!--falta el hipervinculo a la otra pagina web-->
+        <a href="Lear More">Learn More</a>
       </div>
-      <div class="texto2">
+
+      <div>
+        <img
+          src="./projects-section-20221003T113230Z-001/projects-section/2.jpg"
+        />
         <h3>Dashcoin</h3>
         <p>Web Development</p>
         <!--falta el hipervinculo a la otra pagina web-->
+        <a href="Lear More">Learn More</a>
       </div>
 
-      <div class="texto3">
+      <div>
+        <img
+          class="terceraFoto"
+          src="./projects-section-20221003T113230Z-001/projects-section/3.jpg"
+        />
         <h3>Vectorify</h3>
         <p>User Experience Design</p>
-
         <!--falta el hipervinculo a la otra pagina web-->
+        <a href="Lear More">Learn More</a>
       </div>
     </section>
 
-
+    <!--background img css + 4 emoji-->
     <section class="backgroundFoto">
-        <div class="inLineFoto1">
-            <img src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-1.png">
-            <h2>Hear What Our Clients Have to Say</h2>
-            <img src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-4.png">
+      <img
+        class="foto1"
+        src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-1.png"
+      />
+      <img
+        class="foto2"
+        src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-4.png"
+      />
+      <img
+        class="foto3"
+        src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-3.png"
+      />
+      <img
+        class="foto4"
+        src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-2.png"
+      />
+
+      <!--texto del emoji-->
+
+      <div class="textEmoji">
+        <div class="texto1">
+          <h2>Hear What Our Clients Have to Say</h2>
         </div>
 
-        <div>
-            <p>"Circle helped us through every stage of our startup. We really enjoyed working with you."</p>
-        </div>
-        <div class="inLineFoto2">
-            <img src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-3.png">
-            <img src="./testimonial-section-20221003T113243Z-001/testimonial-section/memoji-2.png">    
+        <div class="texto2">
+          <p>
+            "Circle helped us through every stage of our startup. We really
+            enjoyed working with you."
+          </p>
         </div>
 
         <div class="inLineFoto3">
-            <img src="./testimonial-section-20221003T113243Z-001/testimonial-section/profile.png">
+          <div>
+            <img
+              class="rodonda"
+              src="./testimonial-section-20221003T113243Z-001/testimonial-section/profile.png"
+            />
+          </div>
+          <div>
             <h4>Kristin Watson</h4>
             <p>Booking.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- ********************USER EXPERIENCE************* -->
+    <!--  aqui tenemos un div con 3 cajas de div , y cada cosa con div -->
+
+      <div class="cajas3">
+        <section>
+
+              <!--  cada cosa tiene su proprio div -->
+            <div class="caja1">
+              <div><p>Our Services</p></div>
+              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/1.svg" alt="pen icon"> </div>
+              <div><h3>User Interface Design</h3></div>
+              <div><p>Circle provides you with a stunning user interface design that is accessible to everyone.</p></div>
+              <div><a href="">Learn More</a></div>
+            </div>
+
+
+            <div class="caja2">
+              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/2.svg" alt="click icon"></div>
+              <div><h3>User Experience Design</h3></div>
+              <div><p> Circle always focuses on delivering the best user experience to your customers.</p></div>
+              <div><a href="Learn More"></a></div>
+            </div>
+
+
+            <div class="caja3">
+              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/3.svg" alt="folder icon"></div>
+              <div><h3>Application Development</h3></div>
+              <div><p> We develop high-quality mobile and web applications using the latest technology stack.</p></div>
+              <div><a href="">Learn More</a></div>
+            </div>  
+        </section>
+      </div>
+
+
+      <!-- *********************DO YOU HAVE ANY QUESTIONS?***************************** -->
+
+        <!-- aqui tenemos un div con 2 cajas -->
+
+        <div class="yellowBack">
+            <section>
+                <div class="texto"><h2>Do you have any questions?</h2>
+                      <p>Let us help you!</p>
+                </div>
+                  <!-- aqui tengo que poner el icono del mail dentro del input ???????-->
+                <div>
+                  <img src="./newsletter-20221003T113225Z-001/newsletter/icon/mail.svg" alt="email">
+                      <input type="email" value ="Enter your email">
+                      <input type="botton" value="Subscribe">
+
+
+                </div>
+            </section>
         </div>
 
 
-    </section>
+<!-- *************************footer*************************** -->
+<!-- aqui tengo 2 cajas -->
+<footer>
+          <div class="caja1">
+            <div><img src="./logos/circle.svg" alt="circle logo"></div>
+            <div><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></div>
+          </div>
 
 
+          <div class="caja2">
+            <a href="">Team</a>
+            <a href="">Press</a>
+            <a href="">Services</a>
+            <a href="">Projects</a>
+            <a href="">About Us</a>
+            <a href="">Privacy Policy</a>
+          </div>
 
+</footer>
+    <script src="index.js"></script>
   </body>
 </html>

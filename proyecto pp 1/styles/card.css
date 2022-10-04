@@ -1,25 +1,16 @@
-.secion2{
+/* tengo un problema de como llamar las clases */
+
+.h1, .h2{
     display: flex;
-    display: line;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
 
 }
 
-.card1{
-    display: flex;
-    justify-content: center;
-    height: 300px;
-}
 
-.backgroundImg{
-    display: flex;
-    align-items: left;
-    justify-content: flex-end;
-    height: 500px;
-}
-
-.punto2{
-    justify-content: flex;
-}
 
 .h2{
     color: #868AA3;

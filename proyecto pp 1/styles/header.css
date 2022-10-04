@@ -1,10 +1,7 @@
 header{
     display: flex;
     justify-content: space-between;
-   height: 100vf;
-   height: 50px;
-   background-color: red;
-   
+    height: 50px;  
 }
 
 
@@ -13,9 +10,10 @@ header{
     justify-content: space-around;
     align-items:center ;
     padding: 15px 30px;
-    font-size: 17px;
+    font-size: 20px;
     width: 400px;
     color:grey;
+    
     
 }
 
@@ -45,3 +43,9 @@ header{
 button:hover{
     background-color: #292e47;
 }
+
+a{
+    text-decoration: none;
+
+}
+

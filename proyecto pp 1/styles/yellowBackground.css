@@ -1,0 +1,19 @@
+.yellowBack{
+background-color: #FFC600;
+height: 450px;
+display: flex;
+}
+
+/*aqui el texto no sale-en el centro*/
+/* no pongo bien la clase */
+.texto>h2 .p{
+    text-align: center;
+    padding: 50%;
+    margin: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+
+}
+

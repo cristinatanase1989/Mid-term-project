@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+
+/* esto no va */
+.caja2{
+    font-size: 1rem;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-end;
+}
