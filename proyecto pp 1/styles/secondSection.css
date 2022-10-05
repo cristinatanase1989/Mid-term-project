@@ -1,4 +1,46 @@
 .secondSection{
     display: flex;
     justify-content: space-around;
+    padding-top: 250px;
+    padding-bottom: 200px;
+}
+
+.recentProjects{
+    /*background-color: red;*/
+    display: flex;
+    padding-left: 40px;
+  
+   
+
+}
+
+.recentProjects h2{
+    font-size: 70px;
+    color: #292E47;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: Roboto, sans-serif;
+}
+
+.inLineImg h3, p{
+    color: #292E47;
+    font-family: Roboto, sans-serif;
+    padding-left: 30px;
+}
+
+.inLineImg p{
+    font-size: 30px;  
+}
+
+.inLineImg h3{
+    font-size: 50px;
+}
+
+.learnMore{
+    font-size: 30px;  
+    padding-left: 30px;
+    color: blue;
+    font-family: Roboto, sans-serif;
+   /*  aqui falta bajar los textos con margin top, y padding top no va*/
+    background-color: aqua;
 }

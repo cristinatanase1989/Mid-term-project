@@ -6,14 +6,82 @@ display: flex;
 
 /*aqui el texto no sale-en el centro*/
 /* no pongo bien la clase */
-.texto>h2 .p{
+.textoYellow h2 {
+    display: flex;
     text-align: center;
-    padding: 50%;
-    margin: 50%;
+   
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    align-items: center;
+    justify-content:center;
+    
+   font-size: 80px;
+   color:#252427;
+   padding-left: 380px;
+   padding-top: 100px;
 
 }
 
+.textoYellow p{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content:center;
+    
+   font-size: 30px;
+   color:#6B708D;
+   padding-left: 450px;
+   
+  
+
+}
+
+.spaceButton{
+
+display: flex;
+    text-align: center;
+    flex-direction: line;
+    justify-content:line;
+    width: 300px;
+    height: 100px;
+    display: block;
+    padding-left: 300px;
+}
+
+.emailButton{
+    display: flex;
+    width: 393px;
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    background-color: #ecf7ff;
+    color:black;
+    font-size: 40px;
+    
+}
+
+.suscribeButton{
+    display: flex;
+
+    background-color: blue;
+    width: 120px;
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    font-size: 40px;
+    color: white;
+  
+
+    /* este falta subirlo y moverlo a la derecha */
+}/* tmb quitar los marjenes de las cajas */
+
+
+.suscribeButton:hover{
+    display: flex;
+
+    background-color:#292E47;
+    width: 120px;
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    font-size: 40px;
+    color: white;
+}

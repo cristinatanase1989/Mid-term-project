@@ -10,8 +10,8 @@ header{
     justify-content: space-around;
     align-items:center ;
     padding: 15px 30px;
-    font-size: 20px;
-    width: 400px;
+    font-size: 40px;
+    width: 420px;
     color:grey;
     
     
@@ -23,7 +23,7 @@ header{
     justify-content: space-around;
     align-items:center ;
     padding: 15px 30px;
-    font-size: 17px;
+    font-size: 40px;
     width: 400px;
     color:#072ac8;
     
@@ -49,3 +49,7 @@ a{
 
 }
 
+.circleLogo{
+    padding: 20px;
+    margin-left: 40px;
+}

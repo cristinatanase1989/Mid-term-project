@@ -8,12 +8,32 @@ footer{
 
 
 /* esto no va */
-.caja2{
-    font-size: 1rem;
+.footerCaja2{
+    font-size: 20px;
+    
+}
+
+.footerCaja1 p{
+    font-size: 30px;
+   
+}
+
+.footerImg{
+    padding-left: 30px;
+   
+}
+
+.footerCaja2{
     display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	flex-direction: column;
+	
+	justify-content: flex-end;
 	align-items: center;
-	align-content: flex-end;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    display: grid;
+grid-auto-columns: 1fr;
+font-size: 40px;
+
 }

@@ -4,12 +4,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
       integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
@@ -18,10 +23,10 @@
     <!--*********HEADER**********-->
     <header>
       <div>
-        <img src="./logos/circle.svg" alt="circle" />
+        <img class="circleLogo" src="./logos/circle.svg" alt="circle" />
       </div>
       <div class="links">
-        <a class="amarillo" href="Home">Home</a>
+        <a href="Home">Home</a>
         <a href="Projects">Projects</a>
         <a href="Services">Services</a>
       </div>
@@ -34,29 +39,30 @@
     <!--****************BODY****************-->
     <!--absolute y relative , las 3 imagenes con texto-->
     <div>
-      <section class="section2"> <!--div general-->
-            <div class="textTop">  
-              <div>
-              <h1>Empower Your Business With Stunning Design!</h1>
-              <h2>Circle is a digital design and development studio. We design and
-                develop astonishing websites and mobile apps.</h2>
-            </div>
+      <section class="section2">
+        <!--div general-->
+        <div class="textTop">
+          <div><h1>Empower Your Business With Stunning <br> Design!</h1></div>
+          <div><h2>Circle is a digital design and development studio. We design and
+              develop astonishing websites and mobile apps.</h2>
+          </div>
+          
+        <div class="textButton">
+          <div><h4>See our work</h4></div>
+          <div><button class="button">Get in touch</button></div>
+        </div>
+        </div>
 
-            <div class="textButton">
-              <h4>See our work</h4>
-              <button class="button">Get in touch</button>
-            </div>
-            
-
-            <!-- imajenes 3 relative y absolute -->
-            <div class="cardSonrizaOk">
-              <img src="./hero-section/hero-image.png" alt="hero-image" />
-              <img src="./hero-section/card-2.png" />
-              <img src="./hero-section/card-1.png" />
-            </div>
+        <!-- imajenes 3 relative y absolute -->
+        <div class="cardSonrizaOk">
+          <img  class="card" src="./hero-section/card-1.png" />
+         
+          <img class="sonriza" src="./hero-section/hero-image.png" alt="hero-image"/>
+          <img class="ok"  src="./hero-section/card-2.png" />
+        </div>
       </section>
-
     </div>
+
     <!--los logos de la 4 section- logos amazon, google-->
     <div>
       <section class="secondSection">
@@ -70,17 +76,18 @@
 
     <!--las 3 fotos en linia con texto abajo-->
 
+
+
     <!-- <div class="imagenes3"> -->
+      <div class="recentProjects"><h2>Recent Projects</h2></div>
 
     <section class="inLineImg">
-      <div>
-        <img
-          src="./projects-section-20221003T113230Z-001/projects-section/1.jpg"
-        />
+      
+      <div><img src="./projects-section-20221003T113230Z-001/projects-section/1.jpg"/>
         <h3>Simplify</h3>
         <p>UI Design & App Development</p>
         <!--falta el hipervinculo a la otra pagina web-->
-        <a href="Lear More">Learn More</a>
+        <a class="learnMore" href="Lear More">Learn More</a>
       </div>
 
       <div>
@@ -90,7 +97,7 @@
         <h3>Dashcoin</h3>
         <p>Web Development</p>
         <!--falta el hipervinculo a la otra pagina web-->
-        <a href="Lear More">Learn More</a>
+        <a class="learnMore" href="./Dashcoin.html">Learn More</a>
       </div>
 
       <div>
@@ -101,7 +108,7 @@
         <h3>Vectorify</h3>
         <p>User Experience Design</p>
         <!--falta el hipervinculo a la otra pagina web-->
-        <a href="Lear More">Learn More</a>
+        <a class="learnMore" href="Lear More">Learn More</a>
       </div>
     </section>
 
@@ -147,7 +154,7 @@
           </div>
           <div>
             <h4>Kristin Watson</h4>
-            <p>Booking.com</p>
+            <p class="booking">Booking.com</p>
           </div>
         </div>
       </div>
@@ -156,77 +163,110 @@
     <!-- ********************USER EXPERIENCE************* -->
     <!--  aqui tenemos un div con 3 cajas de div , y cada cosa con div -->
 
-      <div class="cajas3">
-        <section>
-
-              <!--  cada cosa tiene su proprio div -->
-            <div class="caja1">
-              <div><p>Our Services</p></div>
-              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/1.svg" alt="pen icon"> </div>
-              <div><h3>User Interface Design</h3></div>
-              <div><p>Circle provides you with a stunning user interface design that is accessible to everyone.</p></div>
-              <div><a href="">Learn More</a></div>
-            </div>
-
-
-            <div class="caja2">
-              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/2.svg" alt="click icon"></div>
-              <div><h3>User Experience Design</h3></div>
-              <div><p> Circle always focuses on delivering the best user experience to your customers.</p></div>
-              <div><a href="Learn More"></a></div>
-            </div>
-
-
-            <div class="caja3">
-              <div><img src="./services-section-20221003T113242Z-001/services-section/icons/3.svg" alt="folder icon"></div>
-              <div><h3>Application Development</h3></div>
-              <div><p> We develop high-quality mobile and web applications using the latest technology stack.</p></div>
-              <div><a href="">Learn More</a></div>
-            </div>  
-        </section>
-      </div>
-
-
-      <!-- *********************DO YOU HAVE ANY QUESTIONS?***************************** -->
-
-        <!-- aqui tenemos un div con 2 cajas -->
-
-        <div class="yellowBack">
-            <section>
-                <div class="texto"><h2>Do you have any questions?</h2>
-                      <p>Let us help you!</p>
-                </div>
-                  <!-- aqui tengo que poner el icono del mail dentro del input ???????-->
-                <div>
-                  <img src="./newsletter-20221003T113225Z-001/newsletter/icon/mail.svg" alt="email">
-                      <input type="email" value ="Enter your email">
-                      <input type="botton" value="Subscribe">
-
-
-                </div>
-            </section>
+    <div class="cajas3">
+      <section>
+        <!--  cada cosa tiene su proprio div -->
+         <div class="ourServices"><h2>Our Services</h2></div>
+         <div class="totalCajas">
+        <div class="caja1medio">
+         
+          <div class="containerImagen1">
+           
+            <img
+              src="./services-section-20221003T113242Z-001/services-section/icons/1.svg"
+              alt="pen icon"
+            />
+          </div>
+          <div class="informacionTexto1">
+            <h3>User Interface Design</h3>
+            <p>
+              Circle provides you with a stunning user interface design that is
+              accessible to everyone.
+            </p>
+             <div><a href="">Learn More</a></div>
+          </div>
+         
         </div>
 
 
-<!-- *************************footer*************************** -->
-<!-- aqui tengo 2 cajas -->
-<footer>
-          <div class="caja1">
-            <div><img src="./logos/circle.svg" alt="circle logo"></div>
-            <div><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></div>
+        <div class="caja2medio">
+          <div class="containerImagen2">
+            <img
+              src="./services-section-20221003T113242Z-001/services-section/icons/2.svg"
+              alt="click icon"
+            />
           </div>
-
-
-          <div class="caja2">
-            <a href="">Team</a>
-            <a href="">Press</a>
-            <a href="">Services</a>
-            <a href="">Projects</a>
-            <a href="">About Us</a>
-            <a href="">Privacy Policy</a>
+          <div class="informacionTexto2">
+            <h3>User Experience Design</h3>
+            <p>
+              Circle always focuses on delivering the best user experience to
+              your customers.
+            </p>
+            <div><a href="">Learn More</a></div>
           </div>
+          
+        </div>
+      
+        <div class="caja3medio">
+          <div class="containerImagen3">
+            <img
+              src="./services-section-20221003T113242Z-001/services-section/icons/3.svg"
+              alt="folder icon"
+            />
+          </div>
+          <div class="informacionTexto3">
+            <h3>Application Development</h3>
+            <p>
+              We develop high-quality mobile and web applications using the
+              latest technology stack.
+            </p>
+            <div><a href="">Learn More</a></div>
+         
+      </div>
+      </section>
+    </div>
 
-</footer>
+    <!-- *********************DO YOU HAVE ANY QUESTIONS?***************************** -->
+
+    <!-- aqui tenemos un div con 2 cajas -->
+
+    <div class="yellowBack">
+      <section>
+        <div class="textoYellow">
+          <h2>Do you have any questions?</h2>
+          <p>Let us help you!</p>
+        </div>
+        <!-- aqui tengo que poner el icono del mail dentro del input ???????-->
+        <div>
+          <img
+            src="./newsletter-20221003T113225Z-001/newsletter/icon/mail.svg"
+            alt="email"
+          />
+          <div class="spaceButton">
+          <input class="emailButton" type="email" value="Enter your email" />
+          <input class="suscribeButton" type="botton" value="Subscribe" />
+        </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- *************************footer*************************** -->
+    <!-- aqui tengo 2 cajas -->
+    <footer>
+      <div class="footerCaja1">
+        <div><img class="footerImg" src="./logos/circle.svg" alt="circle logo" /></div>
+        <div><p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p></div>
+      </div>
+
+      <div class="footerCaja2">
+        <a href="">Team</a>
+        <a href="">Press</a>
+        <a href="">Services</a>
+        <a href="">Projects</a>
+        <a href="">About Us</a>
+        <a href="">Privacy Policy</a>
+      </div>
+    </footer>
     <script src="index.js"></script>
   </body>
 </html>

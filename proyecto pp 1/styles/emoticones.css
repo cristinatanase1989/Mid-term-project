@@ -62,25 +62,31 @@ left:100px;
 
 .texto1 > h2{
   font-size: 80px;
+  color:#ecf7ff;
 }
 
-.texto2{
+.texto2 p{
+  display: flex;
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: -200px;
+  /*background-color: white;*/
   color: #FFC600;
   font-size: 40px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 
 .inLineFoto3{
 display: flex;
 justify-content: line;
 text-align: center;
+margin-left: 600px;
+
 }
 
 .rodonda{
+  
   position: absolute;
  border-radius:50%;
  width: 50px;
@@ -91,3 +97,19 @@ bottom: 20px;
 }
 
 
+.inLineFoto3 h4{
+  color: #7699B9;
+  /*background-color: #FFC600;*/
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 55px;
+  
+}
+.booking{
+ /* background-color: #FFC600;*/
+  margin-top: -15px;
+  margin-left: 27px;
+  color: #ecf7ff;
+  padding: 5px;
+  font-size: 20px;
+}
