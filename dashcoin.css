@@ -1,0 +1,146 @@
+body{
+
+    padding: 50px;
+    margin: 30px 30px 50px 50px;
+    background-color: #F2F4FC;
+    font-family: Robotto;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;  
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 15px 30px;
+    font-size: 40px;
+    width: 420px;
+    color:grey;
+    
+    
+}
+
+
+.links:hover{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 15px 30px;
+    font-size: 40px;
+    width: 400px;
+    color:#072ac8;
+    
+}
+
+
+
+.button{
+    background-color:#072ac8;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    align-items: left;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: #292e47;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.circleLogo{
+    padding: 20px;
+    margin-left: 40px;
+}
+
+
+.titulo{
+
+    font-size: 60px;
+     line-height: 44px;
+    margin-top: 40px;
+font-weight: bold;
+margin-bottom: 10px;
+background-color: blue;
+height: 40px;
+}
+
+/* el parafo no quiere sentarse en row */
+
+.parafo p{
+    font-size: 30px;
+    color: #373949;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    margin-top: 20px;
+    height: 30px;
+
+}
+.imagen{
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.parafo2{
+
+ font-size: 40px;
+ margin-top: 80px;
+
+ background-color: red;
+ /* a la caja tengo que decirle de ir mas abajo pero 
+ el marin button no va*/
+}
+
+
+
+
+img{
+    max-width:300px;
+   
+   } 
+   
+   .inLineImg{
+     display: flex;
+     flex-direction:row;
+     justify-content:space-between;
+     height: 300px;
+     padding: 100px;
+   }
+   
+   .terceraFoto{
+     max-width: 340px;
+     
+   }
+   
+   h3 p {
+     height: 100px;
+     width: 100px;
+     margin: 30px 30px 20px;
+   color: #292e47;
+   font-size: 24px;
+   line-height: 115%;
+   font-weight: 500;
+   }
+   
+   a {
+     color: #3A56D3;
+   }
+

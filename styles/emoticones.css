@@ -1,0 +1,115 @@
+.backgroundFoto{
+  height: 800px;
+  background-color: #292E47;
+  background-image: url("../testimonial-section-20221003T113243Z-001/testimonial-section/orbit.png");
+  background-size:cover;
+  height: 622px;
+margin-top: 100px;
+margin-right: auto;
+margin-left: auto;
+position: relative;
+}
+
+
+/* .foto1 , .foto2 , .foto3 */
+
+.backgroundFoto > img{
+  height: 160px;
+  position: absolute;
+
+}
+
+.foto1{
+  top:60px;
+  left: 100px;
+
+}
+
+
+.foto2{
+  top:60px;
+  right:100px;
+}
+
+
+.foto3{
+bottom: 60px;
+right: 100px;
+}
+
+.foto4{
+bottom:60px;
+left:100px;
+}
+
+
+
+/* texto emoji h1, p */
+
+.textEmoji{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.texto1{
+  display: flex;
+  justify-content: center;
+  color: #ecf7ff;
+  height: 300px;
+  padding:100px
+
+}
+
+.texto1 > h2{
+  font-size: 80px;
+  color:#ecf7ff;
+}
+
+.texto2 p{
+  display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: -200px;
+  /*background-color: white;*/
+  color: #FFC600;
+  font-size: 40px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.inLineFoto3{
+display: flex;
+justify-content: line;
+text-align: center;
+margin-left: 600px;
+
+}
+
+.rodonda{
+  
+  position: absolute;
+ border-radius:50%;
+ width: 50px;
+ height: 50px;
+bottom: 20px;
+ 
+
+}
+
+
+.inLineFoto3 h4{
+  color: #7699B9;
+  /*background-color: #FFC600;*/
+  font-size: 30px;
+  margin-top: 60px;
+  margin-left: 55px;
+  
+}
+.booking{
+ /* background-color: #FFC600;*/
+  margin-top: -15px;
+  margin-left: 27px;
+  color: #ecf7ff;
+  padding: 5px;
+  font-size: 20px;
+}

@@ -1,0 +1,83 @@
+.cajas3medio section{
+    display: flex;
+    flex-direction: column;
+	
+	justify-content:space-around;
+	align-items: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+     background-color: rgb(142, 142, 235); 
+    
+
+}
+.totalCajas{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.caja1medio , .caja2medio , .caja3medio{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+    border-bottom: 300px;
+
+
+}
+
+.cajas3medio h3 {
+font-size: 40px;
+display: flex;
+align-items: left;
+flex-direction: row;
+
+/* color:#868d6b */
+
+}
+
+/* fotos */
+.containerImagen1 , .containerImagen2 , .containerImagen3{
+    background-color:#F2F4FC;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.informacionTexto1 , .informacionTexto2 , .informacionTexto3{
+    font-size: 30px;
+    text-align: left;
+   
+    
+}
+
+.informacionTexto1 p{
+    text-align: left;
+    padding-left: 0;
+    
+}
+
+.informacionTexto2 p{
+    text-align: left;
+    padding-left: 0;
+}
+.informacionTexto3 p{
+    text-align: left;
+    padding-left: 0;
+}
+
+.ourServices h2{
+    padding-top: 110px;
+    color:#32374E;
+    font-size: 70px;
+   
+
+}
