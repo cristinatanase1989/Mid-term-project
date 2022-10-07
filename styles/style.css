@@ -12,5 +12,230 @@ body{
     padding: 50px;
     margin: 20px 20px 20px 20px;
     background-color: #F2F4FC;
-    font-family: Robotto;
+    font-family: "Roboto", sans-serif;
 }
+
+
+@media (max-width:500px) {
+  
+  
+  
+    header{
+    width: 100%;
+    
+    }
+
+
+   .links{
+    display: none;
+
+   }
+
+   .links:hover{
+    display: none;
+   }
+
+ 
+
+
+   .card{
+    display: none;
+   }
+
+   .ok{
+    display: none;
+   }
+
+.amazonclass{
+
+ display: none;
+}
+
+.foto1{
+    display: none;
+}
+
+.foto2{
+    display: none;
+}
+
+.foto3{
+    display: none;
+}
+
+.cajas3{
+    display: column;
+}
+
+
+.secondSection{
+    display: flex;
+    flex-direction: column;
+   height: 80px;
+   justify-content: center;
+   padding: 0%;
+  
+}
+
+.ponerlosEnLinia{
+    flex-direction: column;
+
+    justify-content: center;
+ 
+
+padding: 50px;
+margin: 10px;
+padding-top: 0;
+
+
+}
+
+
+
+
+   body{
+    padding: 0px;
+    margin:0px
+   }
+.section2{
+    
+    flex-direction: column;
+    width: 100vw;
+    /* background-color: red; */
+    margin: 0;
+    
+}
+
+.sonriza{
+    width:80vw;
+    aspect-ratio: 1;
+    padding: 0px;
+    margin:0px;
+    position: block;
+    height: auto;
+
+
+}
+
+
+.textTop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+
+.textTop * {
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    font-size: 40px;
+    /* border: 3px solid greenyellow; */
+    
+}
+
+.textTop br {
+    display: none;
+}
+
+.cardSonrizaOk{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   margin:0px;
+   width: 100vw;
+   
+
+}
+
+.cardSonrizaOk * {
+   /* border: 3px solid green; */
+   padding: 0;
+ 
+  
+
+}
+
+
+/*cajas3 */
+
+
+
+/* yellow back*/
+
+
+.textoYellow{
+    font-size: 20px;
+    display: flex;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;
+    width: 100vw;
+    
+}
+
+
+.separarCajas{
+    display: flex;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;
+    width: 100vw;
+    padding-left: 0;
+}
+
+.spaceButton{
+
+    display: flex;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;
+    width: 50vw;
+    padding-left: 0;
+size: 10px;
+}
+
+.suscribeButton{
+
+    display: flex;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin:0px;
+    width: 100vw;
+    padding-left: 0;
+size: 20px;
+
+}
+
+
+
+
+.textoYellow h2{
+
+font-size: 60px;
+text-align:left;
+
+
+
+}
+   /* llave final*/
+    }
+
+
+
+
+
+
+

@@ -1,7 +1,8 @@
 .yellowBack{
 background-color: #FFC600;
-height: 450px;
+height: 500px;
 display: flex;
+
 }
 
 /*aqui el texto no sale-en el centro*/
@@ -12,11 +13,12 @@ display: flex;
    
     flex-direction: column;
     justify-content:center;
-    
+    margin-bottom: 0;
    font-size: 80px;
    color:#252427;
-   padding-left: 380px;
+   padding-left: 430px;
    padding-top: 100px;
+   font-weight: bold;
 
 }
 
@@ -34,24 +36,41 @@ display: flex;
 
 }
 
+
+.separarCajas{
+  display: flex;
+  justify-content:space-between;
+  
+
+
+}
 .spaceButton{
 
 display: flex;
     text-align: center;
     flex-direction: line;
     justify-content:line;
+  justify-content:space-between;
+
     width: 300px;
     height: 100px;
-    display: block;
     padding-left: 300px;
+    padding-top: 80px;
+}
+
+.email-logo {
+    display: flex;
+    flex-direction: row;
+    background-color: #ecf7ff;
+    height: 80px;
 }
 
 .emailButton{
     display: flex;
     width: 393px;
-    height: 80px;
     margin-bottom: 0px;
-    padding-left: 70px;
+    padding-left: 20px;
+    border: none;
     background-color: #ecf7ff;
     color:black;
     font-size: 40px;
@@ -60,28 +79,24 @@ display: flex;
 
 .suscribeButton{
     display: flex;
-
+    justify-content: space-between;
     background-color: blue;
-    width: 120px;
+    width: 200px;
     height: 80px;
     margin-bottom: 0px;
     padding-left: 70px;
     font-size: 40px;
     color: white;
+    cursor: pointer;
+    border: none;
+
   
 
     /* este falta subirlo y moverlo a la derecha */
-}/* tmb quitar los marjenes de las cajas */
+} 
 
 
 .suscribeButton:hover{
-    display: flex;
-
     background-color:#292E47;
-    width: 120px;
-    height: 80px;
-    margin-bottom: 0px;
-    padding-left: 70px;
-    font-size: 40px;
-    color: white;
+   
 }

@@ -19,12 +19,7 @@ header{
 
 
 .links:hover{
-    display: flex;
-    justify-content: space-around;
-    align-items:center ;
-    padding: 15px 30px;
-    font-size: 40px;
-    width: 400px;
+  
     color:#072ac8;
     
 }
@@ -38,6 +33,7 @@ header{
     height: 40px;
     border: none;
     align-items: left;
+    font-size: 30px;
 }
 
 button:hover{

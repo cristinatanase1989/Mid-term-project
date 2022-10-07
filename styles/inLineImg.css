@@ -7,10 +7,9 @@ img{
 
 .inLineImg{
   display: flex;
-  flex-direction:row;
-  justify-content:space-between;
-  height: 300px;
-  padding: 100px;
+  
+  justify-content:space-around;
+
 }
 
 .terceraFoto{
@@ -18,16 +17,30 @@ img{
   
 }
 
+foto3masGrande{
+  width: 320px;
+}
+
 h3 p {
-  height: 100px;
-  width: 100px;
-  margin: 30px 30px 20px;
+ 
 color: #292e47;
 font-size: 24px;
-line-height: 115%;
+
 font-weight: 500;
 }
 
 a {
   color: #3A56D3;
 }
+
+
+.cartaSimplify{
+  background-color: white;
+  width: 250px;
+
+}
+.cartaSimplify img{
+width: 100%;
+}
+
+

@@ -1,0 +1,209 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;  
+}
+
+
+body{
+
+    padding: 50px;
+    
+    margin: 20px 20px 20px 20px;
+    background-color: #F2F4FC;
+    font-family: "Roboto", sans-serif;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    padding: 15px 30px;
+    font-size: 40px;
+    width: 420px;
+    color:grey;
+    
+    
+}
+
+
+.links:hover{
+    
+    color:#072ac8;
+    
+}
+
+
+
+.button{
+    background-color:#072ac8;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    align-items: left;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: #292e47;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+.circleLogo{
+    padding: 40px;
+    margin-left: 40px;
+    font-size: 90px;
+}
+
+
+.titulo h1{
+  
+    margin-top: 140px;
+margin-bottom: 80px;
+font-size: 90px;
+color: #292E47;
+}
+
+
+/* ************FORMULARIO************* */
+
+.fullName{
+  
+  
+    width: 100%;
+    background-color:#E4E6F0 ;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    color:#9FA3B8;
+
+    
+}
+
+.button-EmailPhone {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.nr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color:#E4E6F0 ;
+    border: none;
+    font-size: 30px;
+    color:#9FA3B8;
+
+   
+    width: 48%;
+    background-color:#E4E6F0 ;
+    border: none;
+    font-size: 30px;
+    color:#9FA3B8;
+}
+
+
+
+.emailNr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    
+    width: 48%;
+    background-color:#E4E6F0 ;
+    border: none;
+    font-size: 30px;
+    color:#9FA3B8;
+    
+    
+}
+
+
+.message{
+    width: 100%;
+    height: 300px;
+    background-color:#E4E6F0 ;
+    border: none;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color:#9FA3B8;
+
+}
+
+.submit{
+    width: 100%;
+    height: 70px;
+    background-color: #072ac8;
+    border: none;
+    font-size: 30px;
+    color: #E4E6F0;
+    margin-top: 20px;
+}
+
+
+.submit:hover{
+    background-color: #292e47;
+}
+
+h3{
+    font-size: 30px;
+   color:#9FA3B8;
+}
+
+.line-emailphone{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+/****************FOOTER*****************/
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top:10%;
+    margin-bottom: 10%;
+}
+
+
+/* esto no va */
+.footerCaja2{
+    font-size: 20px;
+    
+}
+
+.footerCaja1 p{
+    font-size: 30px;
+   
+}
+
+.footerImg{
+    padding-left: 30px;
+   
+}
+
+.footerCaja2{
+    display: flex;
+	flex-direction: column;
+	
+	justify-content: flex-end;
+	align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 16px;
+    grid-column-gap: 16px;
+    display: grid;
+    grid-auto-columns: 1fr;
+    font-size: 40px;
+    color: #072ac8;
+
+}
